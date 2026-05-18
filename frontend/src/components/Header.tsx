@@ -38,7 +38,7 @@ export function Header() {
         <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <h1 className="text-2xl font-bold text-gray-900 dark:text-white">TrakCare Offline</h1>
+              <h1 className="text-2xl font-bold text-gray-900 dark:text-white">FastCare Offline</h1>
               <span className={isOnline ? 'badge-online' : 'badge-offline'}>
                 {isOnline ? (
                   <>

@@ -9,7 +9,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 import { formatTimeAgo } from '../lib/timeAgo';
 import type { Episode, EpisodeType, SyncStats } from '../types';
 
-const EPISODES_REFRESH_INTERVAL = 15000; // 15 segundos
+const EPISODES_REFRESH_INTERVAL = 35000; // 15 segundos
 
 export function Episodes() {
   const navigate = useNavigate();
